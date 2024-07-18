@@ -26,6 +26,7 @@ read -p "Please enter a commit message: " commit_message
 
 # Commit with the provided message
 git commit -m "$commit_message"
+git push origin master
 
 # Print a success message
 echo "Commit successful."
